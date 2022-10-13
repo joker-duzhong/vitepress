@@ -5,7 +5,7 @@ module.exports = {
   description: "A little pleasure",
   // 打包目录
   dest: "./dist",
-  base: "/",
+  base: "/press",
   // 头部head
   head: [
     // 添加图标

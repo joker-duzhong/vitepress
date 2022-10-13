@@ -14,9 +14,11 @@ cd docs/.vitepress/dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m "deploy"
 
-git push -f git@github.com:Jack-Star-T/interview.git master
+git remote add origin https://github.com/joker-duzhong/press.git
+git branch -M main
+git push -u origin main
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
