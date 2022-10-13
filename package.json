@@ -1,0 +1,22 @@
+{
+  "name": "with_hope",
+  "version": "1.0.0",
+  "description": "A little pleasure",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "pages": "npm run build && bash scripts/deploy-gh.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "^0.15.6"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-search": "^1.8.2",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^6.1.0"
+  }
+}
