@@ -41,7 +41,7 @@ module.exports = {
     nav: [
       { text: "With Hope", link: "https://lxyy.fun" },
       { text: "Blog", link: "https://blog.csdn.net/With__Hope" },
-      { text: "Github", link: "https://github.com/duzhong-joker/vitepress" },
+      { text: "Github", link: "https://github.com/joker-duzhong/vitepress" },
     ],
     sidebar: {
       "/": getSidebar(),
