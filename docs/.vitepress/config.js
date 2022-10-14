@@ -52,6 +52,10 @@ module.exports = {
 function getSidebar() {
   return [
     {
+      text: "Github",
+      children: [{ text: "pages", link: "/Github/pages" }],
+    },
+    {
       text: "HTML",
       children: [
         { text: "基础", link: "/HTML/" },
